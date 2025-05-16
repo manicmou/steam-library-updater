@@ -12,7 +12,7 @@ RUN sed -i -e 's/debian bullseye main/debian bullseye main non-free/' /etc/apt/s
     && locale-gen
 
 # Install steamcmd-app-update
-RUN npm install -g  git+https://github.com/mlow/steamcmd-app-update.git
+RUN npm install -g  git+https://github.com/manicmou/steamcmd-app-update.git
 
 WORKDIR /steam
 COPY entrypoint.sh ./
