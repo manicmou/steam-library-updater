@@ -39,7 +39,7 @@ Example `docker-compose.yml`:
 ```yml
 services:
   steam-library-updater:
-    build: https://github.com/mlow/steam-library-updater.git
+    build: https://github.com/manicmou/steam-library-updater.git
     restart: "no"
     environment:
       STEAM_API_KEY:
