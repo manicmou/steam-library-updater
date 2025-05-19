@@ -42,8 +42,10 @@ services:
     build: https://github.com/manicmou/steam-library-updater.git
     restart: "no"
     environment:
+      STEAM_API_TOKEN:
       STEAM_API_KEY:
       STEAM_PROFILE_ID:
+      STEAM_FAMILY_ID:
       SKIP_GAMES:
       STEAM_USERNAME:
       STEAM_PASSWORD:

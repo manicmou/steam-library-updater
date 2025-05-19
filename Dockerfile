@@ -19,7 +19,7 @@ COPY entrypoint.sh ./
 
 ## Change the following at runtime
 # ... variables for steamcmd-app-update
-ENV STEAM_API_KEY= STEAM_PROFILE_ID= SKIP_GAMES= FORCE_VALIDATE=
+ENV STEAM_API_KEY= STEAM_PROFILE_ID= SKIP_GAMES= FORCE_VALIDATE= STEAM_API_TOKEN= STEAM_FAMILY_ID=
 # ... variables for steamcmd. Note: default platform is windows
 # Possible platforms: linux, windows, macos
 ENV STEAM_USERNAME= STEAM_PASSWORD= STEAM_PLATFORM=windows
